@@ -1,62 +1,44 @@
-# LAB - 
+# lab_class08
+Express Routing and Connected API 
 
-## Project Name
+## Deployment Tutorial
 
-### Author: Student/Group Name
-
-### Mongo DB URL
-
-mongodb://localhost:27017/
-
-### Common npm Scripts
- "lint": "eslint \"**/*.js\"",  
-   "start": "node index.js",  
-   "test": "jest --verbose --coverage",  
-   "test-watch": "jest --watchAll --verbose --coverage",  
-   "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json",  
-   "startDB": "mkdir -p ./.db && mongod --dbpath ./.db"
-
-### For JS DOCS
-[Leyla's Guide to JSDocs](https://docs.google.com/document/d/1ifvEDvWpdaCO3AtY6P2KBdDvHaG2GkWpfTFIHBx8BoE/edit?usp=sharing)
-* for your server file: app.use('/docs', express.static('./docs'));
+### Author:
+Lyndsey Thomas
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [submission PR](https://github.com/lyndsey-401-advanced-javascript/lab_class08/pull/2)
+* [travis](https://travis-ci.com/lyndsey-401-advanced-javascript/lab_class08/jobs/227265574) //also broken
+* [front-end](http://localhost:3000/)//front end totally broken and nodemon crashing, not sure why, needs to be looked at
+* [heroku] (https://lab-class08.herokuapp.com/)
+
 
 #### Documentation
-* [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
+* [jsdoc]()
 
 ### Modules
-#### `modulename.js`
+
 ##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
-
 ### Setup
+
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
 
 #### Running the app
 * `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* Endpoint: `/`
+  * Returns true or false
+* Endpoint: `/docs`
+  * Renders Developer Documentation
   
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* Unit Tests: `npm run test`
+* Lint Tests: `npm run lint`
+* Assertions Made
+  * Assertions
+* Assertions Remaining
+  * ... Things I want to tests, but didn't yet.
 
 #### UML
-Link to an image of the UML for your application and response to events
+
+![UML Diagram](./uml.jpeg)
