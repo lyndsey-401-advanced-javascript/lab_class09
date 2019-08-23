@@ -9,7 +9,7 @@ const cors = require('cors');
 const morgan = require('morgan'); 
 
 
-const categoriesRouter = require('../src/lib/categories-modular');
+const categoriesRouter = require('./lib/categories-modular');
 const productsRouter = require('./lib/products-modular');
 
 
