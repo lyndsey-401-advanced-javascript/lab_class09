@@ -33,11 +33,6 @@ class Model {
     return this.schema.find(queryObject);
   }
 
-  //get(_id) {
-  //if (_id) return this.schema.findOne(_id);
-  //return this.schema.find({});
-  //}
-
   /**
    * Create a new record
    * @param record {object} matches the format of the schema

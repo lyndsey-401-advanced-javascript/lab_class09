@@ -6,7 +6,7 @@ const express = require('express');
 //cross origin resource sharing 
 const cors = require('cors');
 //https logging middleware for node
-const morgan = require('morgan'); 
+const morgan = require('morgan');
 
 
 const categoriesRouter = require('./lib/categories-modular');
